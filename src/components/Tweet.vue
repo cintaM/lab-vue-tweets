@@ -14,6 +14,9 @@
     <Message :message="message" />
 
     <Actions />
+    <div>
+      <i class="fas fa-ellipsis-h"></i>
+    </div>
   </div>
 </template>
 <script>

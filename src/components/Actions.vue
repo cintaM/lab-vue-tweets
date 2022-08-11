@@ -5,9 +5,6 @@
         <i class="far fa-heart"></i>
         <i class="fas fa-share"></i> 
       </div>
-      <div>
-      <i class="fas fa-ellipsis-h"></i>
-      </div>
 </template>
 
 <script>
