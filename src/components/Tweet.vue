@@ -6,17 +6,16 @@
       <div className="top">
         <span className="user">
           <User :user="user" />
-        </span>
-        <TimeStamp :timestamp="timestamp" />
-      </div>
+          </span>
+        <TimeStamp :timestamp="timestamp" /> 
     </div>
 
     <Message :message="message" />
-
+    <div className="actions">
     <Actions />
-    <div>
-      <i class="fas fa-ellipsis-h"></i>
     </div>
+    </div>
+      <i class="fas fa-ellipsis-h"></i>
   </div>
 </template>
 <script>
